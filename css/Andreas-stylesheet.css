@@ -1,0 +1,152 @@
+body{
+	font-family: Raleway;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top: 1em;
+	background-image: url("background-square.jpg");
+    background-repeat: repeat;
+
+	}
+
+footer {
+		text-align: center;
+	  	background-color: #696969;
+	  	font-family: Raleway;
+	  	width: 200px
+	  	font-size: 14px;
+	  	padding: 12px 24px;
+	  	margin-top: 4em;
+	  	border: none;
+}
+a:link {
+    color: white;
+	style:none;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	style:none;
+    color: white;
+}
+
+h1{
+	padding-top: 10px;
+	color:#fff;
+}
+
+h2{
+	color: #fff;
+}
+
+h3{
+	color: #000;
+	text-align: center;
+}
+
+.header{
+	display: block;
+	grid-template-columns: 100%
+	margin-bottom:1em;
+	padding-bottom: 1em
+	width: 100%;
+	}
+.header .img{
+	width:100%; 
+	height: auto; 
+
+	}
+.wrapper{
+	display: block;
+	/*grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:1em;
+	padding: 2em;
+	}
+.wrapper > div{
+	position:relative;
+	background:#eee;
+	padding: 1em;
+	border-radius: 10px;
+	padding-right: 1em;
+	padding-left:1em;
+	align-items: center;
+}
+.box{
+	padding-right: 1em;
+	padding-left:1em;
+	padding-top: 1em;
+	}
+.box > div{
+	background:#eee;
+	padding: 1em;
+	border-radius: 10px
+	}
+.wrapper3 {
+	display:grid;
+	grid-template-columns: 100%
+	grid-gap:1em;
+	padding-right: 1em;
+	padding-left:1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+.wrapper3 > div{
+	background:#eee;
+	padding: 1em;
+	border-radius: 10px;
+	padding-right: 1em;
+	padding-left:1em;
+	}
+.top-menu{
+	width: 10%
+	margin:auto;
+	overflow:hidden;
+	}
+#navbar{
+	background-color: none;
+	color: #fff;
+	align-items: right
+	}
+#navbar ul{
+	padding: 1em
+	style:none;
+	float: right;
+	padding-right: 1em
+	}
+#navbar li{
+	display: inline-block;
+	float: center;
+	margin-right: 1em
+	border-right: 1em;
+	padding-right: 1em;
+	padding-left:1em;
+	}
+.bottom.menu{
+	width: 10%
+	margin:auto;
+	overflow:hidden;
+	}
+#navbar2{
+	background-color: none;
+	color: #fff;
+	align-items: center;
+	}
+#navbar2 ul{
+	padding: 1em
+	style:none;
+	font-size: 16px;
+	position:center;
+	padding-right: 1em
+	}
+#navbar2 li{
+	display: block;
+	style:none;
+	float: center;
+	text-align: center;
+	margin-right: 1em
+	border-right: 1em;
+	padding-right: 1em;
+	padding-left:1em;
+	text-align: center;
+}
