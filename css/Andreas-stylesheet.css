@@ -70,7 +70,7 @@ h3{
 .box{
 	padding-right: 3em;
 	padding-left:3em;
-	padding-top: 3em;
+	padding-top: 1em;
 	}
 .box > div{
 	background:#eee;
