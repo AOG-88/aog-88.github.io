@@ -1,5 +1,6 @@
 body{
-	font-family: Raleway;
+	font-family: Raleway, Helvetica, sans-serif; 
+	font-size: 20px;
 	margin-left:auto;
 	margin-right: auto;
 	padding-top: 1em;
@@ -73,30 +74,30 @@ h3{
 	align-items: center;
 }
 .box{
-	padding-right: 1em;
-	padding-left:1em;
-	padding-top: 1em;
+	padding-right: 3em;
+	padding-left:3em;
+	padding-top: 3em;
 	}
 .box > div{
 	background:#eee;
-	padding: 1em;
+	padding: 3em;
 	border-radius: 10px
 	}
 .wrapper3 {
 	display:grid;
 	grid-template-columns: 100%
 	grid-gap:1em;
-	padding-right: 1em;
-	padding-left:1em;
+	padding-right: 3em;
+	padding-left:3em;
 	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 	}
 .wrapper3 > div{
 	background:#eee;
-	padding: 1em;
+	padding: 3em;
 	border-radius: 10px;
-	padding-right: 1em;
-	padding-left:1em;
+	padding-right: 3em;
+	padding-left:3em;
 	}
 .top-menu{
 	width: 10%
