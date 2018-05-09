@@ -1,15 +1,12 @@
 body{
-	font-family: Raleway, Helvetica, sans-serif; 
+	font-family: Raleway, Roboto; 
 	font-size: 20px;
 	margin-left:auto;
 	margin-right: auto;
 	padding-top: 1em;
 	background-image: url("background-square.jpg");
     background-repeat: repeat;
-
 	}
-
-
 footer {
 		text-align: center;
 	  	background-color: #696969;
@@ -25,22 +22,18 @@ a:link {
 	style:none;
 	text-decoration: none;
 }
-
 /* visited link */
 a:visited {
 	style:none;
     color: white;
 }
-
 h1{
 	padding-top: 10px;
 	color:#fff;
 }
-
 h2{
 	color: #fff;
 }
-
 h3{
 	color: #000;
 	text-align: center;
