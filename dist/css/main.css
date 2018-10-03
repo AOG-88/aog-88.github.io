@@ -265,7 +265,7 @@ text-align: center;
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
+    font-size: 20px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
@@ -286,6 +286,6 @@ text-align: center;
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 20px; }
   .projects {
     grid-template-columns: 1fr; } }
